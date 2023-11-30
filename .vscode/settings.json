@@ -1,0 +1,5 @@
+{
+  "[ruby]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  }
+}
