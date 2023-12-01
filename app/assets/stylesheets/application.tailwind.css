@@ -9,7 +9,7 @@
     @apply w-6 mx-4;
   }
   .nav-link {
-    @apply mr-6 p-2 border ring-2 hover:text-green-700 focus-within:text-red-600;
+    @apply mr-6 p-2 hover:text-green-700 focus-within:text-red-600 sm:mx-8;
   }
 }
 
