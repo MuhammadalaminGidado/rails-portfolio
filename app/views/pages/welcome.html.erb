@@ -1,32 +1,43 @@
-<div class="container h-full ml-0">
-    <header class="flex justify-between items-stretch max-w-screen-xl">
-        <nav class="flex flex-1">
-            <ul class='flex'>
-                <li class="nav-link"><a href="/">Home</a></li>
-                <li class="nav-link"><a href="">Projects</a></li>
-                <li class="nav-link"><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <p><a href="https://bento.me/muhammadalamin" target="_blank">Alamin Gidado</a></p>
-    </header>
-
-    <main class="w-1/2 my-6">
-        <h2 class="text-xl font-bold">Hi, I'm a frontend developer</h2>
-        <span>proficient in the use of the usual technologies use for frontend</span>
-        <button>View my work</button>
-    </main>
-    <footer class="absolute bottom-0 mx-0 py-2 bg-gray-500 flex items-center">
-        <div class="flex items-center mr-96">
-            <a href="https://github.com/MuhammadalaminGidado" target="_blank"><img
+<div class="container ml-0 grid place-items-center overflow-hidden">
+  <header class="flex justify-around ml-0 w-64 
+ sm:w-screen">
+    <nav class="sticky top-0
+">
+      <ul class='flex'>
+        <li class="nav-link"><a href="/">Home</a></li>
+        <li class="nav-link"><a href="">Projects</a></li>
+        <li class="nav-link"><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid grid-rows-2 mt-12 place-items-center gap-5">
+    <div class="mb-4 text-center w-2/4 text-clip">
+      <div class="grid">
+        <h2 class="text-xl font-bold mb-10">Hi, I'm <span class="hover:underline hover:text-green-400 transition-all"><a href='https://bento.me/muhammadalamingidado' target='_blank'>Alamin</a>
+          </span>.
+        </h2>
+      </div>
+      <section class="text-lg p-6 rounded-lg shadow-lg mb-10">
+        <p>I'm a frontend developer who uses the major technologies to design and develop beautiful user interfaces whilst also trying to give a good user experience.</p>
+        <p>Over the years, I have dabbled in quite a few projects here and there</p>
+      </section>
+      <button class="bg-green-400 p-2 rounded-lg transition-all text-white hover:shadow-lg hover:text-lg">
+        View my work
+      </button>
+    </div>
+  </main>
+  <%# <footer class="absolute bottom-0 mx-0 py-2 bg-gray-500 flex items-center">
+    <div class="flex items-center mr-96">
+      <a href="https://github.com/MuhammadalaminGidado" target="_blank"><img
                     src="https://img.icons8.com/?size=30&id=62856&format=png" alt="Github" class="img-link"
                     loading="lazy"></a>
-            <a href="https://x.com/" target="_blank"><img
+        <a href="https://x.com/" target="_blank"><img
                     src="https://www.freepnglogos.com/new-twitter-x-logo-transparent-png-4.png"
                     alt="X(formerly Twitter)" class="img-link w-3" loading="lazy"></a>
-            <a href="https://linkedin.com/" target="_blank"><img
+          <a href="https://linkedin.com/" target="_blank"><img
                     src="https://img.icons8.com/?size=48&id=xuvGCOXi8Wyg&format=png" alt="LinkedIn" class="img-link"
                     loading="lazy"></a>
-        </div>
-        <span class="">&copy;</span>
-    </footer>
+          </div>
+          <span class="">Copyright&copy;</span>
+        </footer> %>
 </div>
